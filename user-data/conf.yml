@@ -4,44 +4,408 @@ pageInfo:
   title: Dashy
   description: Welcome to your new dashboard!
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+    - title: Documentation
+      path: https://dashy.to/docs
 appConfig:
-  theme: colorful
-
-# Main content - An array of sections, each containing an array of items
+  theme: one-dark
+  layout: horizontal
+  iconSize: medium
+  language: cn
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
+  - name: Getting Started
+    icon: fas fa-rocket
+    items:
+      - title: Dashy Live
+        description: Development a project management links for Dashy
+        icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
+        url: https://live.dashy.to/
+        target: newtab
+        id: 0_1481_dashylive
+      - title: GitHub
+        description: Source Code, Issues and Pull Requests
+        url: https://github.com/lissy93/dashy
+        icon: favicon
+        id: 1_1481_github
+      - title: Docs
+        description: Configuring & Usage Documentation
+        provider: Dashy.to
+        icon: far fa-book
+        url: https://dashy.to/docs
+        id: 2_1481_docs
+      - title: Showcase
+        description: See how others are using Dashy
+        url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
+        icon: far fa-grin-hearts
+        id: 3_1481_showcase
+      - title: Config Guide
+        description: See full list of configuration options
+        url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
+        icon: fas fa-wrench
+        id: 4_1481_configguide
+      - title: Support
+        description: Get help with Dashy, raise a bug, or get in contact
+        url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
+        icon: far fa-hands-helping
+        id: 5_1481_support
+      - title: GitHub
+        description: Source code and documentation on GitHub
+        icon: fab fa-github
+        url: https://github.com/Lissy93/dashy
+        id: 6_1481_github
+      - title: Issues
+        description: View currently open issues, or raise a new one
+        icon: fas fa-bug
+        url: https://github.com/Lissy93/dashy/issues
+        id: 7_1481_issues
+      - title: Demo
+        description: A live demo
+        icon: far fa-rocket
+        url: https://dashy-demo-1.netlify.app
+        id: 8_1481_demo
+      - title: 腾讯视频
+        url: https://v.qq.com/
+        id: 9_1481_
+      - title: dashy下载代码
+        url: https://dashy.to/docs/configuring
+        id: 10_1481_dashy
+      - title: csdn
+        description: Rakerose或13078531818/845512zgnydx
+        url: https://blog.csdn.net/
+        id: 11_1481_csdn
+      - title: gitee(国内版github)
+        description: rakerose/845512zgnydx
+        url: https://gitee.com/
+        id: 12_1481_giteegithub
+      - title: 网易云音乐
+        url: https://music.163.com/#/discover/toplist
+        id: 13_1481_
+      - title: TV_Box
+        url: https://github.com/liu673cn/box
+        id: 14_1481_tvbox
+      - title: 幕布
+        description: 账户：130……/密码：8……
+        url: https://mubu.com/
+        id: 15_1481_
+      - title: 网易土木
+        description: 账户：130……/密码：8……z……
+        url: https://www.co188.com/
+        id: 16_1481_
+      - title: 免费域名地址
+        description: SN3566-FREE/845512zgnydx
+        url: https://nic.eu.org/
+        id: 17_1481_
+      - title: 杭州检测学习
+        description: 13078531818/R_Rake845512
+        url: https://www.jxjsjyw.net/home
+        id: 18_1481_
+      - title: SD-amd
+        description: 监听
+        url: http://192.168.0.201:7860/
+        id: 19_1481_sdamd
+    filteredItems:
+      - title: Dashy Live
+        description: Development a project management links for Dashy
+        icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
+        url: https://live.dashy.to/
+        target: newtab
+        id: 0_1481_dashylive
+      - title: GitHub
+        description: Source Code, Issues and Pull Requests
+        url: https://github.com/lissy93/dashy
+        icon: favicon
+        id: 1_1481_github
+      - title: Docs
+        description: Configuring & Usage Documentation
+        provider: Dashy.to
+        icon: far fa-book
+        url: https://dashy.to/docs
+        id: 2_1481_docs
+      - title: Showcase
+        description: See how others are using Dashy
+        url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
+        icon: far fa-grin-hearts
+        id: 3_1481_showcase
+      - title: Config Guide
+        description: See full list of configuration options
+        url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
+        icon: fas fa-wrench
+        id: 4_1481_configguide
+      - title: Support
+        description: Get help with Dashy, raise a bug, or get in contact
+        url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
+        icon: far fa-hands-helping
+        id: 5_1481_support
+      - title: GitHub
+        description: Source code and documentation on GitHub
+        icon: fab fa-github
+        url: https://github.com/Lissy93/dashy
+        id: 6_1481_github
+      - title: Issues
+        description: View currently open issues, or raise a new one
+        icon: fas fa-bug
+        url: https://github.com/Lissy93/dashy/issues
+        id: 7_1481_issues
+      - title: Demo
+        description: A live demo
+        icon: far fa-rocket
+        url: https://dashy-demo-1.netlify.app
+        id: 8_1481_demo
+      - title: 腾讯视频
+        url: https://v.qq.com/
+        id: 9_1481_
+      - title: dashy下载代码
+        url: https://dashy.to/docs/configuring
+        id: 10_1481_dashy
+      - title: csdn
+        description: Rakerose或13078531818/845512zgnydx
+        url: https://blog.csdn.net/
+        id: 11_1481_csdn
+      - title: gitee(国内版github)
+        description: rakerose/845512zgnydx
+        url: https://gitee.com/
+        id: 12_1481_giteegithub
+      - title: 网易云音乐
+        url: https://music.163.com/#/discover/toplist
+        id: 13_1481_
+      - title: TV_Box
+        url: https://github.com/liu673cn/box
+        id: 14_1481_tvbox
+      - title: 幕布
+        description: 账户：130……/密码：8……
+        url: https://mubu.com/
+        id: 15_1481_
+      - title: 网易土木
+        description: 账户：130……/密码：8……z……
+        url: https://www.co188.com/
+        id: 16_1481_
+      - title: 免费域名地址
+        description: SN3566-FREE/845512zgnydx
+        url: https://nic.eu.org/
+        id: 17_1481_
+      - title: 杭州检测学习
+        description: 13078531818/R_Rake845512
+        url: https://www.jxjsjyw.net/home
+        id: 18_1481_
+      - title: SD-amd
+        description: 监听
+        url: http://192.168.0.201:7860/
+        id: 19_1481_sdamd
+  - name: 本地
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: 路由器
+        url: http://miwifi.com/cgi-bin/luci/web
+        id: 0_48732_
+      - title: 云端同步
+        description: Iifd-PViO-ZTdD-nDCC
+        url: 192.168.0.10:10003
+        id: 1_48732_
+      - title: 证件照7860端口
+        icon: ''
+        url: http://127.0.0.1:7860/
+        id: 2_48732_
+      - title: ddns-updater
+        description: furuijun@qq.com/Rake845512*
+        icon: ''
+        url: http://192.168.0.10:10099
+        id: 3_48732_ddnsupdater
+      - title: qBittorent(BT下载)
+        description: admin/845512
+        url: http://192.168.0.10:6363/
+        id: 4_48732_qbittorentbt
+      - title: Portainer
+        description: admin/furuijun845512
+        url: http://192.168.0.10:10008
+        id: 5_48732_portainer
+      - title: Nginx Proxy Manager
+        description: furuijun@qq.com/845512zgnydx
+        url: http://192.168.0.10:10081/
+        id: 6_48732_nginxproxymanager
+      - title: qnap-DDNS-GO
+        url: http://192.168.0.10:9876/
+        id: 7_48732_qnapddnsgo
+      - title: OmniParser
+        description: ''
+        url: http://localhost:7861/
+        id: 8_48732_omniparser
+      - title: Jackett
+        description: ''
+        url: http://192.168.0.10:9117
+        id: 9_48732_jackett
+      - title: MinerU
+        url: http://127.0.0.1:15556/
+        id: 10_48732_mineru
+      - title: 阿里镜像服务器
+        description: ruirake/845512zgnydx
+        url: https://cr.console.aliyun.com/cn-beijing/instances
+        id: 11_48732_
+      - title: Github_rakerdocker
+        description: rakersfu/845512zgnydx
+        url: https://github.com/rakersfu
+        id: 12_48732_githubrakerdocker
+      - title: PT下载站点
+        description: 账号：ruirake-密码：845512
+        url: https://pt.gtk.pw/downloadnotice.php?torrentid=1094&type=firsttime
+        id: 13_48732_pt
+      - title: Transmission下载器
+        description: 账号qnap-密码qnap
+        url: http://192.168.0.10:49092/transmission/web/
+        id: 14_48732_transmission
+      - title: nextcloud
+        description: nextcloud 账户：furuijun-密码：8……z……
+        url: http://192.168.0.10:10025/
+        id: 15_48732_nextcloud
+      - title: Comfy UI
+        description: 账号：furuijun@qq.com-密码8……z……
+        url: http://localhost:8188
+        id: 16_48732_comfyui
+      - title: navidrome音乐播放
+        description: admin/845512
+        url: http://192.168.0.10:10002
+        id: 17_48732_navidrome
+      - title: alist
+        description: admin/123456
+        url: http://192.168.0.10:5244/
+        id: 18_48732_alist
+      - title: Cloudfare登录
+        description: furuijun@qq.com密码R_845512zgnydx
+        url: https://dash.cloudflare.com/login?lang=zh-Hans-CN
+        id: 19_48732_cloudfare
+      - title: Jellyfin
+        description: root/845512zgnydx
+        url: http://192.168.0.10:8096
+        id: 20_48732_jellyfin
+      - title: 台式机ddnsgo
+        description: admin/845512zgnydx
+        url: http://localhost:9876/
+        id: 21_48732_ddnsgo
+      - title: siyuan域名加端口访问
+        description: '845512'
+        url: http://nas.rake.eu.org:9001/
+        id: 22_48732_siyuan
+      - title: navidrome域名加端口
+        description: admin/845512
+        url: http://nas.rake.eu.org:9002
+        id: 23_48732_navidrome
+      - title: RSS订阅
+        url: http://192.168.0.10:3638/i/
+        id: 24_48732_rss
+      - title: jellyfin域名加端口
+        url: http://nas.raker.eu.org:9005
+        id: 25_48732_jellyfin
+      - title: OmnitTools
+        url: http://192.168.0.10:10070/
+        id: 26_48732_omnittools
+    filteredItems:
+      - title: 路由器
+        url: http://miwifi.com/cgi-bin/luci/web
+        id: 0_48732_
+      - title: 云端同步
+        description: Iifd-PViO-ZTdD-nDCC
+        url: 192.168.0.10:10003
+        id: 1_48732_
+      - title: 证件照7860端口
+        icon: ''
+        url: http://127.0.0.1:7860/
+        id: 2_48732_
+      - title: ddns-updater
+        description: furuijun@qq.com/Rake845512*
+        icon: ''
+        url: http://192.168.0.10:10099
+        id: 3_48732_ddnsupdater
+      - title: qBittorent(BT下载)
+        description: admin/845512
+        url: http://192.168.0.10:6363/
+        id: 4_48732_qbittorentbt
+      - title: Portainer
+        description: admin/furuijun845512
+        url: http://192.168.0.10:10008
+        id: 5_48732_portainer
+      - title: Nginx Proxy Manager
+        description: furuijun@qq.com/845512zgnydx
+        url: http://192.168.0.10:10081/
+        id: 6_48732_nginxproxymanager
+      - title: qnap-DDNS-GO
+        url: http://192.168.0.10:9876/
+        id: 7_48732_qnapddnsgo
+      - title: OmniParser
+        description: ''
+        url: http://localhost:7861/
+        id: 8_48732_omniparser
+      - title: Jackett
+        description: ''
+        url: http://192.168.0.10:9117
+        id: 9_48732_jackett
+      - title: MinerU
+        url: http://127.0.0.1:15556/
+        id: 10_48732_mineru
+      - title: 阿里镜像服务器
+        description: ruirake/845512zgnydx
+        url: https://cr.console.aliyun.com/cn-beijing/instances
+        id: 11_48732_
+      - title: Github_rakerdocker
+        description: rakersfu/845512zgnydx
+        url: https://github.com/rakersfu
+        id: 12_48732_githubrakerdocker
+      - title: PT下载站点
+        description: 账号：ruirake-密码：845512
+        url: https://pt.gtk.pw/downloadnotice.php?torrentid=1094&type=firsttime
+        id: 13_48732_pt
+      - title: Transmission下载器
+        description: 账号qnap-密码qnap
+        url: http://192.168.0.10:49092/transmission/web/
+        id: 14_48732_transmission
+      - title: nextcloud
+        description: nextcloud 账户：furuijun-密码：8……z……
+        url: http://192.168.0.10:10025/
+        id: 15_48732_nextcloud
+      - title: Comfy UI
+        description: 账号：furuijun@qq.com-密码8……z……
+        url: http://localhost:8188
+        id: 16_48732_comfyui
+      - title: navidrome音乐播放
+        description: admin/845512
+        url: http://192.168.0.10:10002
+        id: 17_48732_navidrome
+      - title: alist
+        description: admin/123456
+        url: http://192.168.0.10:5244/
+        id: 18_48732_alist
+      - title: Cloudfare登录
+        description: furuijun@qq.com密码R_845512zgnydx
+        url: https://dash.cloudflare.com/login?lang=zh-Hans-CN
+        id: 19_48732_cloudfare
+      - title: Jellyfin
+        description: root/845512zgnydx
+        url: http://192.168.0.10:8096
+        id: 20_48732_jellyfin
+      - title: 台式机ddnsgo
+        description: admin/845512zgnydx
+        url: http://localhost:9876/
+        id: 21_48732_ddnsgo
+      - title: siyuan域名加端口访问
+        description: '845512'
+        url: http://nas.rake.eu.org:9001/
+        id: 22_48732_siyuan
+      - title: navidrome域名加端口
+        description: admin/845512
+        url: http://nas.rake.eu.org:9002
+        id: 23_48732_navidrome
+      - title: RSS订阅
+        url: http://192.168.0.10:3638/i/
+        id: 24_48732_rss
+      - title: jellyfin域名加端口
+        url: http://nas.raker.eu.org:9005
+        id: 25_48732_jellyfin
+      - title: OmnitTools
+        url: http://192.168.0.10:10070/
+        id: 26_48732_omnittools
+
   
