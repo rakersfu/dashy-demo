@@ -1,5 +1,3 @@
----
-# Page meta info, like heading, footer text and nav links
 pageInfo:
   title: Dashy
   description: Welcome to your new dashboard!
@@ -9,7 +7,7 @@ pageInfo:
     - title: Documentation
       path: https://dashy.to/docs
 appConfig:
-  theme: one-dark
+  theme: tama
   layout: horizontal
   iconSize: medium
   language: cn
@@ -61,7 +59,7 @@ sections:
         id: 7_1481_issues
       - title: Demo
         description: A live demo
-        icon: far fa-rocket
+        icon: ''
         url: https://dashy-demo-1.netlify.app
         id: 8_1481_demo
       - title: 腾讯视频
@@ -104,6 +102,56 @@ sections:
         description: 监听
         url: http://192.168.0.201:7860/
         id: 19_1481_sdamd
+      - title: 亚马逊云服务
+        description: furuijun@live.com/R_Rake8……2
+        icon: ''
+        url: >-
+          https://ap-southeast-2.console.aws.amazon.com/console/home?region=ap-southeast-2#
+        id: 20_1481_
+      - title: Hugging Face
+        description: furuijun2025@gmail.com/R_Rake8……2
+        url: https://huggingface.co/
+        id: 21_1481_huggingface
+      - title: 谷歌账户
+        description: furuijun2025@gmail.com/8……2zgnydx
+        url: https://mail.google.com
+        id: 22_1481_
+      - title: n8n
+        description: furuijun@live.com/R_R
+        url: https://rakersfu-n8n.hf.space/
+        id: 23_1481_nn
+      - title: 数据库supabase
+        description: github账户登录
+        url: https://supabase.com/
+        id: 24_1481_supabase
+      - title: brightdata爬虫
+        description: github登录
+        url: https://brightdata.com/
+        id: 25_1481_brightdata
+      - title: 'FireCrawl网页爬虫 '
+        description: github登录
+        url: https://www.firecrawl.dev/
+        id: 26_1481_firecrawl
+      - title: youtube
+        description: google账户登录
+        url: https://www.youtube.com/
+        id: 27_1481_youtube
+      - title: furuijun@proton.me
+        description: 邮箱/845512zgnydx
+        url: https://mail.proton.me/
+        id: 28_1481_furuijunprotonme
+      - title: dpdns域名
+        description: qq邮箱+R_Rake845512
+        url: https://dash.domain.digitalplat.org/
+        id: 29_1481_dpdns
+      - title: 教育域名
+        description: 'AI-354633-KG/R_Rake845512 '
+        url: https://cctld.kg/en
+        id: 30_1481_
+      - title: API代理deno.com
+        description: githun登录
+        url: https://dash.deno.com/
+        id: 31_1481_apidenocom
     filteredItems:
       - title: Dashy Live
         description: Development a project management links for Dashy
@@ -149,7 +197,7 @@ sections:
         id: 7_1481_issues
       - title: Demo
         description: A live demo
-        icon: far fa-rocket
+        icon: ''
         url: https://dashy-demo-1.netlify.app
         id: 8_1481_demo
       - title: 腾讯视频
@@ -192,6 +240,56 @@ sections:
         description: 监听
         url: http://192.168.0.201:7860/
         id: 19_1481_sdamd
+      - title: 亚马逊云服务
+        description: furuijun@live.com/R_Rake8……2
+        icon: ''
+        url: >-
+          https://ap-southeast-2.console.aws.amazon.com/console/home?region=ap-southeast-2#
+        id: 20_1481_
+      - title: Hugging Face
+        description: furuijun2025@gmail.com/R_Rake8……2
+        url: https://huggingface.co/
+        id: 21_1481_huggingface
+      - title: 谷歌账户
+        description: furuijun2025@gmail.com/8……2zgnydx
+        url: https://mail.google.com
+        id: 22_1481_
+      - title: n8n
+        description: furuijun@live.com/R_R
+        url: https://rakersfu-n8n.hf.space/
+        id: 23_1481_nn
+      - title: 数据库supabase
+        description: github账户登录
+        url: https://supabase.com/
+        id: 24_1481_supabase
+      - title: brightdata爬虫
+        description: github登录
+        url: https://brightdata.com/
+        id: 25_1481_brightdata
+      - title: 'FireCrawl网页爬虫 '
+        description: github登录
+        url: https://www.firecrawl.dev/
+        id: 26_1481_firecrawl
+      - title: youtube
+        description: google账户登录
+        url: https://www.youtube.com/
+        id: 27_1481_youtube
+      - title: furuijun@proton.me
+        description: 邮箱/845512zgnydx
+        url: https://mail.proton.me/
+        id: 28_1481_furuijunprotonme
+      - title: dpdns域名
+        description: qq邮箱+R_Rake845512
+        url: https://dash.domain.digitalplat.org/
+        id: 29_1481_dpdns
+      - title: 教育域名
+        description: 'AI-354633-KG/R_Rake845512 '
+        url: https://cctld.kg/en
+        id: 30_1481_
+      - title: API代理deno.com
+        description: githun登录
+        url: https://dash.deno.com/
+        id: 31_1481_apidenocom
   - name: 本地
     displayData:
       sortBy: default
@@ -303,6 +401,13 @@ sections:
       - title: OmnitTools
         url: http://192.168.0.10:10070/
         id: 26_48732_omnittools
+      - title: 本地n8n
+        description: qq邮箱+Rake845512
+        url: http://localhost:5678
+        id: 27_48732_nn
+      - title: Libre翻译
+        url: http://192.168.0.10:10020/?source=auto&target=en
+        id: 28_48732_libre
     filteredItems:
       - title: 路由器
         url: http://miwifi.com/cgi-bin/luci/web
@@ -407,5 +512,10 @@ sections:
       - title: OmnitTools
         url: http://192.168.0.10:10070/
         id: 26_48732_omnittools
-
-  
+      - title: 本地n8n
+        description: qq邮箱+Rake845512
+        url: http://localhost:5678
+        id: 27_48732_nn
+      - title: Libre翻译
+        url: http://192.168.0.10:10020/?source=auto&target=en
+        id: 28_48732_libre
