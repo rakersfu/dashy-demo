@@ -1,3 +1,4 @@
+# cat conf.yml
 pageInfo:
   title: Dashy
   description: Welcome to your new dashboard!
@@ -152,6 +153,69 @@ sections:
         description: githun登录
         url: https://dash.deno.com/
         id: 31_1481_apidenocom
+      - title: Gitlab
+        description: furuijun@outlook.com/8……x
+        url: https://gitlab.com/
+        id: 32_1481_gitlab
+      - title: heroku
+        description: furuijun@outlook.com/R_Rake845512zgnydx
+        url: https://dashboard.heroku.com/
+        id: 33_1481_heroku
+      - title: 定时请求网页避免休眠uptimerobot
+        description: outlook邮箱/8……x
+        url: https://dashboard.uptimerobot.com/monitors
+        id: 34_1481_uptimerobot
+      - title: 魔塔api
+        description: github登录/ms-f3889f8d-b42b-442b-960f-2775acb50f3f
+        url: https://modelscope.cn/my/myaccesstoken
+        id: 35_1481_api
+      - title: Vercel
+        description: gitlab登录/372手机号验证
+        url: https://vercel.com/xionglis-projects
+        id: 36_1481_vercel
+      - title: Nextcloud-域名
+        url: https://nextcloud.raker.eu.org/apps/files/files
+        id: 37_1481_nextcloud
+      - title: 定时请求网页
+        description: outlook邮箱/8……x
+        url: https://dashboard.uptimerobot.com/monitors
+        id: 38_1481_
+      - title: Gemini生图
+        description: AIzaSyBvtT9pcrkuJSQP6GjDwfGQ9JgnjGRLRbM
+        url: https://shengtu.rake.edu.kg/
+        id: 39_1481_gemini
+      - title: 腾讯docker仓库
+        url: https://console.cloud.tencent.com/tcr/repository/
+        id: 40_1481_docker
+      - title: google_idx
+        url: https://idx.google.com/
+        id: 41_1481_googleidx
+      - title: 1Panel_aws
+        url: http://aws.rake.edu.kg:10000/845512
+        id: 42_1481_panelaws
+      - title: leapcell_类似vercel
+        description: github登录/已托管moontv(wangdi.eu.org)
+        url: https://leapcell.io
+        id: 43_1481_leapcellvercel
+      - title: Siyuan_N100
+        url: http://un100.rake.eu.org:10001/
+        id: 44_1481_siyuann
+      - title: SAP_BTP
+        description: mail@raker.eu.org/R_R……2
+        url: https://account.hanatrial.ondemand.com/trial
+        id: 45_1481_sapbtp
+      - title: Freecloudpanel
+        description: furuijun@outlook.com/8……2zgnydx
+        url: https://panel.freecloud.ltd/
+        id: 46_1481_freecloudpanel
+      - title: lunes_host
+        description: furuijun@outlook.com/8……x
+        url: https://betadash.lunes.host/
+        id: 47_1481_luneshost
+      - title: claw_cloud
+        description: github登录
+        url: https://ap-southeast-1.run.claw.cloud
+        id: 48_1481_clawcloud
     filteredItems:
       - title: Dashy Live
         description: Development a project management links for Dashy
@@ -290,6 +354,69 @@ sections:
         description: githun登录
         url: https://dash.deno.com/
         id: 31_1481_apidenocom
+      - title: Gitlab
+        description: furuijun@outlook.com/8……x
+        url: https://gitlab.com/
+        id: 32_1481_gitlab
+      - title: heroku
+        description: furuijun@outlook.com/R_Rake845512zgnydx
+        url: https://dashboard.heroku.com/
+        id: 33_1481_heroku
+      - title: 定时请求网页避免��眠uptimerobot
+        description: outlook邮箱/8……x
+        url: https://dashboard.uptimerobot.com/monitors
+        id: 34_1481_uptimerobot
+      - title: 魔塔api
+        description: github登录/ms-f3889f8d-b42b-442b-960f-2775acb50f3f
+        url: https://modelscope.cn/my/myaccesstoken
+        id: 35_1481_api
+      - title: Vercel
+        description: gitlab登录/372手机号验证
+        url: https://vercel.com/xionglis-projects
+        id: 36_1481_vercel
+      - title: Nextcloud-域名
+        url: https://nextcloud.raker.eu.org/apps/files/files
+        id: 37_1481_nextcloud
+      - title: 定时请求网页
+        description: outlook邮箱/8……x
+        url: https://dashboard.uptimerobot.com/monitors
+        id: 38_1481_
+      - title: Gemini生图
+        description: AIzaSyBvtT9pcrkuJSQP6GjDwfGQ9JgnjGRLRbM
+        url: https://shengtu.rake.edu.kg/
+        id: 39_1481_gemini
+      - title: 腾讯docker仓库
+        url: https://console.cloud.tencent.com/tcr/repository/
+        id: 40_1481_docker
+      - title: google_idx
+        url: https://idx.google.com/
+        id: 41_1481_googleidx
+      - title: 1Panel_aws
+        url: http://aws.rake.edu.kg:10000/845512
+        id: 42_1481_panelaws
+      - title: leapcell_类似vercel
+        description: github登录/已托管moontv(wangdi.eu.org)
+        url: https://leapcell.io
+        id: 43_1481_leapcellvercel
+      - title: Siyuan_N100
+        url: http://un100.rake.eu.org:10001/
+        id: 44_1481_siyuann
+      - title: SAP_BTP
+        description: mail@raker.eu.org/R_R……2
+        url: https://account.hanatrial.ondemand.com/trial
+        id: 45_1481_sapbtp
+      - title: Freecloudpanel
+        description: furuijun@outlook.com/8……2zgnydx
+        url: https://panel.freecloud.ltd/
+        id: 46_1481_freecloudpanel
+      - title: lunes_host
+        description: furuijun@outlook.com/8……x
+        url: https://betadash.lunes.host/
+        id: 47_1481_luneshost
+      - title: claw_cloud
+        description: github登录
+        url: https://ap-southeast-1.run.claw.cloud
+        id: 48_1481_clawcloud
   - name: 本地
     displayData:
       sortBy: default
@@ -401,13 +528,40 @@ sections:
       - title: OmnitTools
         url: http://192.168.0.10:10070/
         id: 26_48732_omnittools
-      - title: 本地n8n
+      - title: n8n-qnas
         description: qq邮箱+Rake845512
-        url: http://localhost:5678
-        id: 27_48732_nn
+        url: http://192.168.0.10:5678
+        id: 27_48732_nnqnas
       - title: Libre翻译
-        url: http://192.168.0.10:10020/?source=auto&target=en
+        url: http://192.168.0.10:10023/?source=auto&target=en
         id: 28_48732_libre
+      - title: Nextcloud
+        description: qq邮箱/R_R……2
+        url: http://192.168.0.10:10021/apps/files/files/3
+        id: 29_48732_nextcloud
+      - title: nextcloud_nas
+        description: notunel
+        url: http://nas.raker.eu.org:9021/apps/files/files
+        id: 30_48732_nextcloudnas
+      - title: lxd_v2raya_科学
+        description: admin/8……2
+        url: http://192.168.0.222:2017
+        id: 31_48732_lxdvraya
+      - title: v2raya_n100
+        description: admin/8……2
+        url: http://192.168.0.136:2017
+        id: 32_48732_vrayan
+      - title: 1Panel_n100
+        description: furuijun/R_R……2
+        url: http://192.168.0.136:10000/845512
+        id: 33_48732_paneln
+      - title: Dashy_n100_域名
+        url: http://un100.rake.eu.org:10003/
+        id: 34_48732_dashyn
+      - title: nextcloud_n100
+        description: furuijun/8……x
+        url: https://un100.raker.eu.org/apps/files/files
+        id: 35_48732_nextcloudn
     filteredItems:
       - title: 路由器
         url: http://miwifi.com/cgi-bin/luci/web
@@ -512,10 +666,37 @@ sections:
       - title: OmnitTools
         url: http://192.168.0.10:10070/
         id: 26_48732_omnittools
-      - title: 本地n8n
+      - title: n8n-qnas
         description: qq邮箱+Rake845512
-        url: http://localhost:5678
-        id: 27_48732_nn
+        url: http://192.168.0.10:5678
+        id: 27_48732_nnqnas
       - title: Libre翻译
-        url: http://192.168.0.10:10020/?source=auto&target=en
+        url: http://192.168.0.10:10023/?source=auto&target=en
         id: 28_48732_libre
+      - title: Nextcloud
+        description: qq邮箱/R_R……2
+        url: http://192.168.0.10:10021/apps/files/files/3
+        id: 29_48732_nextcloud
+      - title: nextcloud_nas
+        description: notunel
+        url: http://nas.raker.eu.org:9021/apps/files/files
+        id: 30_48732_nextcloudnas
+      - title: lxd_v2raya_科学
+        description: admin/8……2
+        url: http://192.168.0.222:2017
+        id: 31_48732_lxdvraya
+      - title: v2raya_n100
+        description: admin/8……2
+        url: http://192.168.0.136:2017
+        id: 32_48732_vrayan
+      - title: 1Panel_n100
+        description: furuijun/R_R……2
+        url: http://192.168.0.136:10000/845512
+        id: 33_48732_paneln
+      - title: Dashy_n100_域名
+        url: http://un100.rake.eu.org:10003/
+        id: 34_48732_dashyn
+      - title: nextcloud_n100
+        description: furuijun/8……x
+        url: https://un100.raker.eu.org/apps/files/files
+        id: 35_48732_nextcloudn
